@@ -12,7 +12,13 @@ body {
 h2 {
   color: #3f0097;
 }
-
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+.profile__image {
+  align-self: center;
+}
 .main__title {
   padding: 10px;
   background: #fddcd2;
@@ -37,4 +43,10 @@ h2 {
   background-color: #3f0097;
   color: #ffffff;
   border-radius: 10px;
+}
+section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }

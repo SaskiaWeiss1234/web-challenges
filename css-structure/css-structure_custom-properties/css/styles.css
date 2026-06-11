@@ -14,6 +14,7 @@ body {
   --color-foam: #ffffff;
   --color-granite: #8336ff7b;
   --primary-border-radius: 4px;
+  --primary-letter-spacing: 0.025em;
   
 }
 header {
@@ -26,13 +27,13 @@ h1 {
   color: var(--color-foam);
   line-height: 1.4;
   margin: 0;
-  letter-spacing: 0.025em;
+  letter-spacing: var(--primary-letter-spacing);
   text-transform: uppercase;
   padding-block: 16px;
 }
 
 h2 {
-  letter-spacing: 0.025em;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 strong {
@@ -97,7 +98,7 @@ mark {
   background-color: var(--color-nemo);
   color: var(--color-foam);
   border-radius: var(--primary-border-radius);
-  letter-spacing: 0.025em;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 ::selection {

@@ -13,6 +13,8 @@ body {
   --color-nemo: #ff4a11;
   --color-foam: #ffffff;
   --color-granite: #8336ff7b;
+  --primary-border-radius: 4px;
+  
 }
 header {
   background: var(--color-granite);
@@ -63,7 +65,7 @@ figure {
   margin: 0;
   padding: 10px;
   background-color: var(--color-nemo);
-  border-radius: 4px;
+  border-radius: var(--primary-border-radius);
 }
 
 figcaption {
@@ -80,7 +82,7 @@ a {
   display: inline-block;
   font-size: smaller;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: var(--primary-border-radius);
   background-color: var(--color-nemo);
   color: var(--color-foam);
 }
@@ -94,7 +96,7 @@ a:focus-visible {
 mark {
   background-color: var(--color-nemo);
   color: var(--color-foam);
-  border-radius: 4px;
+  border-radius: var(--primary-border-radius);
   letter-spacing: 0.025em;
 }
 

@@ -7,7 +7,7 @@ let coding = "Happy Coding!";
 // 1. Store the sentence 'Happy coding!' in a variable named 'coding'.
 
 // 2. Display the variable 'coding' as a message in the console.
-conxole.log(coding);
+console.log(coding);
 // 3. Store the sentence 'Happy hacking!' in a variable named 'hacking'.
 let hacking = "Happy Hacking!";
 // 4. Display the variable 'hacking' as a message in the console.

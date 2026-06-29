@@ -1,0 +1,34 @@
+//How to create an array
+//const colors = ["pink", 0, false, [], {}]
+////////////////  0        1        2       3
+const colors = ["pink", "blue", "orange", "red"]
+//How to remove/add/access specififc values
+console.log(colors[0]);
+//Access elements inside arrays
+
+//Modifying the array
+Colors[0] = "green";
+//You can only modify elements og an array, not the array itself
+
+const lastItem = colors[5];
+console.log("lastItem", lastItem);
+const lastItem = colors[colors.length - 1];
+
+console.log("lastItem", lastItem);
+//.push() ADDS A VALUE TO THE VERY END OF AN ARRAY
+colors.push("tomato");
+
+// .pop() REMOVES THE LAST ITEM IN AN ARRAY
+colors.pop();
+console.log("poppedValue", poppedValue);
+// .unshift() ADDS A VALUE TO THE BEGINNING OF AN ARRAY
+colors.unshift("black");
+console.log("colors", colors);
+
+// .shift() REMOVES THE FIRST ITEM OF AN ARRAY
+const shiftValue = colors.shift();
+console.log("shiftValue", shiftValue);
+
+//Create 
+const sclicedArray = colors.slice(2, 4);
+// Not providing number within the brackets makes a copy of the entire array

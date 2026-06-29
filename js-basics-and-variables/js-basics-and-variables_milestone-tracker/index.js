@@ -16,7 +16,12 @@ Hint: You can combine text and variables using the `+` operator.
 
 💡 For simplicity, ignore leap years.
 */
-
-const yearsPracticing = Number(process.argv[2]); // This takes the `<years>` entered in the command `node index.js <years>`.
-
+/
+const yearsPracticing = Number(process.argv[2]); 
+// This takes the `<years>` entered in the command `node index.js <years>`.
 console.log("You've been practicing for: " + yearsPracticing + " years");
+const totalDays = yearsPracticing * 365;
+const milestoneDays = 365 * 10;
+const milestoneTracker = milestoneDays - totalDays;
+const milestoneTrackerPercentage = (milestoneDays/totalDays) *100;
+const cumulativeDaysOfPractice = totalDays/24;

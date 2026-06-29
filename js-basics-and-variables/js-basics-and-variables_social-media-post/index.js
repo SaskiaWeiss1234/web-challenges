@@ -8,9 +8,13 @@ console.clear();
 	- the user who created the post
 	- a boolean called `isReported` to indicate whether the post has been reported
 */
-
+const postTitle = "My first trip to Europe";
+const postContent = "I saw a lot of things...";
+let likeNumber = 89;
+const userAuthor = "Felix";
+const isReported = true;
 // --v-- write your code here --v--
-
+console.log(postTitle, postContent, likeNumber, userAuthor, isReported);
 // --^-- write your code here --^--
 
 /*
@@ -19,4 +23,6 @@ console.clear();
 
 // --v-- write your code here --v--
 
+likeNumber = likeNumber + 1;
 // --^-- write your code here --^--
+console.log(likeNumber);

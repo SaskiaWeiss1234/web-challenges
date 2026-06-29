@@ -4,11 +4,14 @@ console.clear();
 // Modify the array `exampleArray` so that it contains a number and a string.
 
 const exampleArray = [true];
+exampleArray.unshift("dog", 4);
+
 
 // EXERCISE 2
 // Nest an array inside `nestedArray`. After completing this, `nestedArray` should contain an array as one of its elements.
 
-const nestedArray = ["example", 10, true];
+const nestedArray = ["example", 10,  true];
+
 
 // EXERCISE 3
 // Change the value of `firstNumber` to equal the first value in the `numbers` array using bracket notation.
@@ -60,3 +63,4 @@ export {
   unshiftedPets,
   shiftedFruits,
 };
+console.log(exampleArray)

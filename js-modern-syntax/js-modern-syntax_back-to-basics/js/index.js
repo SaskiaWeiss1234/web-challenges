@@ -15,3 +15,14 @@ export const getRelocatedCity = (
     country,
   };
 };
+
+export function getNameAndCountry(person) {
+  var name = city.name;
+  var country = city.country;
+  return [name, country];
+}
+export function getRelocatedCity(city1, city2) {
+  if (city2 === undefined) {
+    city2 = { name: "Berlin", country: "Germany" };
+  }
+}

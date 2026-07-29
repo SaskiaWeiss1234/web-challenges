@@ -1,10 +1,17 @@
+import BoxWithStyledComponents from "@/components/BoxWithStyledComponents.js";
 import BoxWithClassName from "../components/BoxWithClassName/BoxWithClassName.js";
-
+import StyledBox from "@/components/BoxWithStyledComponents.js";
+import styled from "styled-components";
 export default function HomePage() {
+  const HorizontalBoxes = styled.div`
+  display: flex;`
   return (
-    <div>
+    <HorizontalBoxes>
       <BoxWithClassName />
       <BoxWithClassName isBlack />
-    </div>
+      <BoxWithStyledComponents />
+      <BoxWithStyledComponents $isBlack />
+
+    </HorizontalBoxes>
   );
 }

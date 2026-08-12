@@ -1,7 +1,7 @@
 {
-  "name": "js-unit-testing_get-animal",
+  "name": "js-unit-testing_math-functions",
   "version": "0.0.0-unreleased",
-  "description": "Challenge for the JS Unit Testing Session: getAnimal()",
+  "description": "Challenge for the JS Unit Testing Session: Mathematical Functions",
   "main": "index.js",
   "scripts": {
     "start": "npx -y live-server@latest --port=3000",
@@ -12,15 +12,11 @@
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@types/jest": "^29.5.2",
-    "eslint": "^8.43.0",
     "eslint-plugin-jest": "^27.2.2",
-    "jest": "^29.2.2",
-    "vite": "^8.1.5"
+    "eslint": "^8.43.0",
+    "jest": "^29.2.2"
   },
   "nf": {
     "template": "js"
-  },
-  "dependencies": {
-    "pluralize": "^8.0.0"
   }
 }

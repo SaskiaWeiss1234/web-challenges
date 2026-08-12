@@ -27,9 +27,9 @@ There are font variables already prepared in the [styles.css file](./README.md#r
 
 ```js
 const lora = Lora({
-  subsets: ["latin"],
-  style: ["normal", "italic"],
-});
+    subsets: ["latin"],
+      style: ["normal", "italic"],
+})
 ```
 
 - Finally, expand the `--font-family` variable to `${lora.style.fontFamily}, serif;`
